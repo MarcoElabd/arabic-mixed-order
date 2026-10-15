@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": "node ./hooks/arabic-mixed-order.mjs"
+      }
+    ],
+    "beforeSubmitPrompt": [
+      {
+        "command": "node ./hooks/arabic-mixed-order.mjs"
+      }
+    ]
+  }
+}
