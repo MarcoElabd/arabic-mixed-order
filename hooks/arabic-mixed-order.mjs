@@ -14,9 +14,11 @@ try {
 }
 
 const additional_context = [
-  'Mixed Arabic order: when one paragraph contains Arabic letters and Latin letters, the Cursor desktop chat swaps the Arabic clause before a Latin word with the clause after it.',
-  'Write that paragraph in normal logical order. Do not shape it and do not reverse its letters.',
-  'Put U+2067 at the first character of the paragraph and U+2069 at the last character.',
+  'Arabic display: native',
+  'This is the Cursor desktop app. It draws Arabic itself. Write every reply in normal logical Arabic.',
+  'Do not run shape.mjs. Do not reverse letters. Do not paste presentation forms. Ignore a visual display line if one appears.',
+  'When one paragraph contains Arabic letters and Latin letters, the desktop chat swaps the Arabic clause before a Latin word with the clause after it.',
+  'Put U+2067 at the first character of that paragraph and U+2069 at the last character.',
   'Leave a paragraph that is only Arabic, or only English, unwrapped. Leave an English-only code block unwrapped.',
   'Do not edit the existing arabic plugin.',
 ].join('\n')
