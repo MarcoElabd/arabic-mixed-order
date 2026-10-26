@@ -1,0 +1,17 @@
+{
+  "name": "arabic-mixed-order",
+  "displayName": "ترتيب الجملة المختلطة",
+  "version": "1.0.0",
+  "description": "Keeps Arabic clause order in the Cursor desktop chat when a paragraph also contains English words.",
+  "author": {
+    "name": "Abo-Eyad"
+  },
+  "homepage": "https://github.com/MarcoElabd/arabic-mixed-order",
+  "repository": "https://github.com/MarcoElabd/arabic-mixed-order",
+  "license": "MIT",
+  "keywords": ["arabic", "rtl", "bidi", "cursor"],
+  "category": "language",
+  "tags": ["arabic", "rtl"],
+  "rules": "./rules/",
+  "hooks": "./hooks/hooks.json"
+}

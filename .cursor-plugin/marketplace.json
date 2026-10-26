@@ -1,0 +1,16 @@
+{
+  "name": "arabic-mixed-order",
+  "owner": {
+    "name": "Abo-Eyad"
+  },
+  "metadata": {
+    "description": "Arabic clause order for the Cursor desktop chat"
+  },
+  "plugins": [
+    {
+      "name": "arabic-mixed-order",
+      "source": ".",
+      "description": "Keeps Arabic clause order when a desktop chat paragraph also contains English words."
+    }
+  ]
+}

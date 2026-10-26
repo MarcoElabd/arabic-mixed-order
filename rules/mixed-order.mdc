@@ -1,0 +1,19 @@
+---
+description: Keep Arabic clause order when a desktop chat paragraph also contains English words.
+alwaysApply: true
+---
+
+Arabic display: native
+This is the Cursor desktop app. It draws Arabic itself. Write every reply in normal logical Arabic.
+Do not run shape.mjs. Do not reverse letters. Do not paste presentation forms. Ignore a visual display line if one appears.
+The desktop chat lays text out left to right. One English word splits an Arabic paragraph into two runs, and the run before that word is drawn after it.
+When one paragraph contains Arabic letters and Latin letters, put U+2067 at the first character of that paragraph and U+2069 at the last character.
+Write the words in normal logical order. Do not use U+202B or U+202C.
+Leave a paragraph that is only Arabic, or only English, unwrapped. Leave an English-only code block unwrapped.
+Do not edit the existing arabic plugin.
+
+Example logical sentence:
+
+عنوان الشات بقى BIM Work and Apps، والشغل هنا هيبقى خاص بـ BIM: النمذجة، التطبيقات، وسير العمل.
+
+Surround that whole paragraph with U+2067 and U+2069.
