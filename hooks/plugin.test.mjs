@@ -28,7 +28,11 @@ test('mixed-order rule is always applied', () => {
   const raw = readFileSync(join(root, 'rules', 'mixed-order.mdc'), 'utf8')
   assert.match(raw, /^---\r?\n[\s\S]*?alwaysApply:\s*true[\s\S]*?\r?\n---/)
   for (const line of [
-    'put U+2067 at the first character of that paragraph and U+2069 at the last character.',
+    'Put U+2067 at the first character of that paragraph and U+2069 at the last character.',
+    'One pair covers the whole paragraph.',
+    'however many Latin words it has.',
+    'Do not wrap a Latin word in backticks, bold, or a link.',
+    'A reply with several mixed paragraphs needs one pair per paragraph, including the first.',
     'Do not use U+202B or U+202C.',
     'Leave a paragraph that is only Arabic, or only English, unwrapped.',
     'Do not edit the existing arabic plugin.',

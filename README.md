@@ -11,8 +11,8 @@ An English word splits the sentence, and the chat draws from left to right, so t
 - `U+2069` في آخر الفقرة
   at the end of the paragraph
 
-الفقرة العربية فقط، أو الإنجليزية فقط، أو بلوك الكود الإنجليزي، تفضل من غير العلامتين. الإضافة لا تغيّر إضافة arabic الموجودة.
-A paragraph that is only Arabic, only English, or an English code block stays unwrapped. This plugin does not change the existing arabic plugin.
+الفقرة العربية فقط، أو الإنجليزية فقط، أو بلوك الكود الإنجليزي، تفضل من غير العلامتين. الفقرة المختلطة، مهما طولت ومهما زاد عدد الكلمات الإنجليزية، تتلف مرة واحدة من أولها لآخرها، والكلمة الإنجليزية تفضل نص عادي من غير تنسيق. الإضافة لا تغيّر إضافة arabic الموجودة.
+A paragraph that is only Arabic, only English, or an English code block stays unwrapped. A mixed paragraph, however long and however many English words it has, is wrapped once from start to end, and each English word stays plain text. This plugin does not change the existing arabic plugin.
 
 ## التثبيت / Install
 
