@@ -4,7 +4,7 @@
   "version": "1.1.0",
   "description": "Keeps Arabic clause order in the Cursor desktop chat when a paragraph also contains English words.",
   "author": {
-    "name": "Abo-Eyad"
+    "name": "Marco Elabd"
   },
   "homepage": "https://github.com/MarcoElabd/arabic-mixed-order",
   "repository": "https://github.com/MarcoElabd/arabic-mixed-order",
